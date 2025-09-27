@@ -341,6 +341,7 @@ const GovindasMenu = () => {
       description:
         'Crispy golden pastry stuffed with spicy, flavorful potatoes — the classic samosa delight.',
       tags: ['NF'],
+      deal: 'Get 2 for $9',
       image: '🥟',
       category: 'appetizers',
       rating: 4.6,
