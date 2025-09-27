@@ -290,10 +290,10 @@ const GovindasMenu = () => {
     {
       id: 1,
       name: 'Dosa',
-      price: '$14.99',
+      price: '$10',
       description:
         'Crispy golden dosa, tangy and savory, paired with sauces that burst with flavor.',
-      fillings: 'Choose your filling - Mysore Masala, Masala, Tofu',
+      fillings: 'Filling - Masala Potato',
       tags: ['NF', 'GF'],
       image: '🥞',
       category: 'mains',
@@ -301,11 +301,10 @@ const GovindasMenu = () => {
     },
     {
       id: 2,
-      name: 'Khichdi',
-      price: '$14.99',
+      name: 'Yogic Khichdi',
+      price: '$5',
       description:
         'A wholesome blend of lentils, rice, and mild spices — light, nourishing, and deliciously comforting.',
-      subtitle: 'Yogic healthy stew',
       tags: ['NF', 'GF'],
       image: '🍲',
       category: 'mains',
@@ -314,7 +313,7 @@ const GovindasMenu = () => {
     {
       id: 3,
       name: 'Pav Bhaji',
-      price: '$11.99',
+      price: '$10',
       description:
         'Soft pav, sizzling butter, and a rich, spices-loaded bhaji that melts in your mouth',
       deal: '$3 for extra Pav (bread)',
@@ -326,7 +325,7 @@ const GovindasMenu = () => {
     {
       id: 4,
       name: 'Pani Puri',
-      price: '$9.99',
+      price: '$8',
       description:
         'A crunch filled with zesty, spicy, and sweet flavors — the magic of pani puri.',
       deal: '8 pieces per serving',
@@ -338,10 +337,9 @@ const GovindasMenu = () => {
     {
       id: 5,
       name: 'Samosa',
-      price: '$6.99',
+      price: '$5',
       description:
         'Crispy golden pastry stuffed with spicy, flavorful potatoes — the classic samosa delight.',
-      deal: 'Get 2 for $12.99',
       tags: ['NF'],
       image: '🥟',
       category: 'appetizers',
@@ -350,7 +348,7 @@ const GovindasMenu = () => {
     {
       id: 6,
       name: 'Sprouts',
-      price: '$2.99',
+      price: '$3',
       description:
         "Fresh, crunchy sprouted legumes tossed with vibrant chutneys and spices. The perfect guilt-free snack that'll make your body thank you.",
       tags: ['NF', 'GF'],
@@ -460,15 +458,6 @@ const GovindasMenu = () => {
                     </span>
                   </div>
                 </div>
-
-                {/* Subtitle */}
-                {item.subtitle && (
-                  <div className='mb-4'>
-                    <span className='inline-block bg-gradient-to-r from-purple-100 to-pink-100 text-purple-800 text-sm font-medium px-3 py-1.5 rounded-full border border-purple-200/50'>
-                      ✨ {item.subtitle}
-                    </span>
-                  </div>
-                )}
 
                 {/* Description */}
                 <p className='text-gray-700 leading-relaxed mb-4'>
